@@ -1,0 +1,175 @@
+
+.header{
+
+  height: 57px;
+  display: flex;
+  flex-direction: row;
+
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+
+  z-index: 100;
+  
+  background-color: white;
+
+  border-bottom-width: 1px;
+  border-bottom-style: solid;
+  border-color: rgba(205, 204, 204, 0.652);;
+}
+
+
+.left-section{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+.middle-section{
+    flex:1;
+    margin-left: 70px;
+    margin-right: 25px;
+
+    max-width: 470px;
+
+    display: flex;
+    align-items: center;
+}
+
+
+.right-section{
+
+  width: 182px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 24px;
+  margin-left: 29px;
+  flex-shrink: 0;
+}
+
+.search-bar{
+
+  flex: 1;
+
+  height: 34px;
+  border-style: solid;
+  border-color: rgb(211, 197, 197);
+  border-width: 1px;
+  font-size: 12px;
+
+  width: 0;
+  border-radius: 2px;
+}
+
+.search-bar::placeholder{
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 14px;
+}
+
+
+
+.hamburger-menu{
+  height: 24px;
+  margin-left: 22px;
+  margin-right: 22px;
+}
+
+.youtube-icon{
+  height: 20px;
+}
+
+
+.search-button{
+  height: 38px;
+  width: 62px;
+  background-color: rgba(241, 239, 239, 0.74);
+
+  border-style: solid;
+  border-color:rgb(211, 197, 197);
+  border-width: 1px;
+
+  margin-right: 5px;
+  margin-left: -1px;
+
+  cursor: pointer;
+  
+}
+
+.voice-button{
+  height: 24px;
+  width: 40px;
+  background-color: white;
+  
+
+  border-radius: 20px;
+  border: none;
+
+  cursor: pointer;  
+}
+
+.search-icon{
+  height: 24px;
+  vertical-align: middle;
+}
+
+.voice-icon{
+  height: 24px;
+  
+}
+
+
+
+.upload-icon{
+  height: 24px;
+  border: none;
+}
+
+.apps-icon{
+  height: 24px;
+  border: none;
+}
+
+.noti-icon{
+  height: 24px;
+  border:none;
+}
+
+.dev-icon{
+  height: 32px;
+}
+
+
+.noti-div{
+  position:relative;
+}
+
+
+.noti-count{
+  background-color: rgb(200,0 , 0);
+  color: white;
+
+  position: absolute;
+  top: -2px;
+  right: -4px;
+
+  font-family: robot,arial;
+  font-size: 10px;
+  font-weight: 600;
+
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+
+  border-radius: 10px;
+
+  margin-top: 1px;
+
+}
