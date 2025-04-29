@@ -1,5 +1,4 @@
 .sidebar{
-
   position: fixed;
   left:0;
   bottom: 0;
@@ -8,8 +7,6 @@
   background-color: white;
   width: 72px;
   z-index: 110;
-
-
 }
 
 .sidebar-elements img{
@@ -18,11 +15,7 @@
 }
 
 .sidebar div{
-
-  font-family: Roboto,Arial, Helvetica, sans-serif;
   font-size: 10px;
-
-
 }
 
 .sidebar-elements{

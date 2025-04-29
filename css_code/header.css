@@ -1,6 +1,5 @@
 
 .header{
-
   height: 57px;
   display: flex;
   flex-direction: row;
@@ -22,7 +21,6 @@
 
 
 .left-section{
-
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -43,7 +41,6 @@
 
 
 .right-section{
-
   width: 182px;
   display: flex;
   align-items: center;
@@ -54,16 +51,12 @@
 }
 
 .search-bar{
-
   flex: 1;
-
   height: 34px;
-  border-style: solid;
-  border-color: rgb(211, 197, 197);
-  border-width: 1px;
-  font-size: 12px;
-
   width: 0;
+  border: 1px solid  rgb(211, 197, 197);;
+  font-size: 12px;
+  
   border-radius: 2px;
 }
 
@@ -72,7 +65,6 @@
   font-weight: 500;
   font-size: 14px;
 }
-
 
 
 .hamburger-menu{
@@ -99,7 +91,6 @@
   margin-left: -1px;
 
   cursor: pointer;
-  
 }
 
 .voice-button{
@@ -107,7 +98,6 @@
   width: 40px;
   background-color: white;
   
-
   border-radius: 20px;
   border: none;
 
@@ -121,7 +111,6 @@
 
 .voice-icon{
   height: 24px;
-  
 }
 
 
@@ -145,7 +134,6 @@
   height: 32px;
 }
 
-
 .noti-div{
   position:relative;
 }
@@ -159,7 +147,6 @@
   top: -2px;
   right: -4px;
 
-  font-family: robot,arial;
   font-size: 10px;
   font-weight: 600;
 
@@ -171,5 +158,4 @@
   border-radius: 10px;
 
   margin-top: 1px;
-
 }
